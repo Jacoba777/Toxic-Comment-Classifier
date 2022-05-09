@@ -25,7 +25,7 @@ The NLP model was trained using 474,807 Wikipedia discussion forum comments, of 
 toxic in some way, and the other 90% were benign (nontoxic) comments. The test data set consists of 100,000 different 
 Wikipedia discussion forum comments from the same source.
 
-# To run this application from scratch:
+## To run this application from scratch:
 1. Download `train.py`, `test.py`, and `corpus_utils.py` and place the 
 three in an empty folder somewhere on your machine.
 2. Place the corpus in the same folder as the three python files, and 
@@ -41,7 +41,7 @@ the `dictionaries/` subfolder.
 executing, you will have a new `test_results.txt` file at the same 
 location as the .py files, which will contain the test results.
 
-# Notes:
+## Notes:
 * The `train.py` program takes a long time to write the trigram files. For nearly 
 500,000 comments, it took nearly 6 hours to run on my machine. This 
 time can be sped up dramatically if you do not write the trigram files.
