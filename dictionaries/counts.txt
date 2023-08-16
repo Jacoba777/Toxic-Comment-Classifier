@@ -1,9 +1,0 @@
-all 287403
-nontoxic 258242
-all_toxic 29161
-toxic 27491
-severe_toxic 2861
-obscene 15213
-threat 854
-insult 14178
-identity_hate 2530
